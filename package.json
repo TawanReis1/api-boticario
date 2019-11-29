@@ -1,0 +1,30 @@
+{
+  "name": "api-boticario",
+  "version": "1.0.0",
+  "description": "Teste boticario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Tawan Reis",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "3.0.6",
+    "dotenv": "8.2.0",
+    "jsonwebtoken": "8.5.1",
+    "koa": "2.11.0",
+    "koa-body": "4.1.1",
+    "koa-router": "7.4.0",
+    "koa2-cors": "2.0.6",
+    "moment": "^2.24.0",
+    "mongodb": "3.3.4",
+    "mongoose": "5.7.11",
+    "mongoose-delete": "0.5.1",
+    "request": "2.87.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.4"
+  }
+}
